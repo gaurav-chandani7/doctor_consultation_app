@@ -1,4 +1,5 @@
-import 'package:doctor_consultation_app/constants/app_constants.dart' as AppConstants;
+import 'package:doctor_consultation_app/constants/app_constants.dart'
+    as AppConstants;
 import 'package:doctor_consultation_app/view/screens/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,8 +16,10 @@ class DoctorConsultationApp extends StatelessWidget {
       top: false,
       child: MaterialApp(
         title: 'Doctor Consultation App',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(seedColor: AppConstants.primaryBlue),
+            colorScheme:
+                ColorScheme.fromSeed(seedColor: AppConstants.primaryBlue),
             useMaterial3: true,
             scaffoldBackgroundColor: Colors.white,
             appBarTheme: const AppBarTheme(

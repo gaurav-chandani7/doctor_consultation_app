@@ -119,6 +119,7 @@ class BookingsTab extends StatelessWidget {
                                           const Icon(
                                             Icons.menu_book,
                                             color: AppConstants.primaryBlue,
+                                            size: 18,
                                           ),
                                           const SizedBox(
                                             width: 2,
